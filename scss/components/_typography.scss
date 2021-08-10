@@ -9,6 +9,7 @@
     display: inline-block;
     font-weight: 700;
     font-family: 'Poppins', sans-serif;
+    color: $yellow-edge;
   }
 
   &--description {
@@ -16,6 +17,7 @@
     display: block;
     margin-top: 1.2rem;
     text-transform: none;
+    color: $orange-edge;
 
     @include media-breakpoint-up(lg) {
       font-size: 1.4rem;
